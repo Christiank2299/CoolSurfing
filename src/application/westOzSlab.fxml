@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.WestOzSlab">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="285.0" fitWidth="600.0" layoutY="-2.0">
+               <image>
+                  <Image url="@../../../../Downloads/WestOzSlabPhoto.jpeg" />
+               </image>
+            </ImageView>
+            <Button fx:id="travel" layoutX="245.0" layoutY="294.0" mnemonicParsing="false" onAction="#travelToWestOzSlab" prefHeight="26.0" prefWidth="74.0" text="Travel" />
+            <Button fx:id="backButton" layoutY="1.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+            <Label layoutX="329.0" layoutY="296.0" prefHeight="22.0" prefWidth="271.0" text="Travel Restrictions: None" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="330.0" layoutY="316.0" prefHeight="22.0" prefWidth="242.0" text="Death Rate(Ages 0-20): less than 1%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="330.0" layoutY="333.0" prefHeight="22.0" prefWidth="240.0" text="Death Rate(Ages 20-40): less than 1%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="330.0" layoutY="350.0" prefHeight="22.0" prefWidth="239.0" text="Death Rate(Ages 40-70): less than 1%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="331.0" layoutY="367.0" prefHeight="22.0" prefWidth="239.0" text="Death Rate(Ages 70-80): 5%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="3.0" layoutY="294.0" prefHeight="22.0" prefWidth="246.0" text="Recommended Skill Level: Pro" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="3.0" layoutY="309.0" prefHeight="22.0" prefWidth="267.0" text="Location: Blacks Beach, California, USA" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="3.0" layoutY="326.0" prefHeight="22.0" prefWidth="278.0" text="Best Time to Travel: January  - May" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="3.0" layoutY="343.0" prefHeight="22.0" prefWidth="276.0" text="Best Time to Surf: July  - September" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
