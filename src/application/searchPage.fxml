@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SearchPage">
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ComboBox fx:id="placeBox" layoutX="56.0" layoutY="93.0" onAction="#searchByPlace" prefHeight="26.0" prefWidth="120.0" promptText="Place" />
+            <ComboBox fx:id="continentBox" layoutX="57.0" layoutY="146.0" onAction="#searchByContinent" prefHeight="26.0" prefWidth="118.0" promptText="Continent" />
+            <ComboBox fx:id="covidRiskLevel" layoutX="59.0" layoutY="200.0" onAction="#searchByRiskLevel" prefHeight="26.0" prefWidth="119.0" promptText="Risk Level" />
+            <ComboBox fx:id="waveGrade" layoutX="59.0" layoutY="255.0" onAction="#searchByWaveGrade" prefHeight="26.0" prefWidth="120.0" promptText="Wave Grade" />
+            <Button fx:id="search" layoutX="91.0" layoutY="307.0" mnemonicParsing="false" onAction="#searchFinal" text="Search" />
+            <ListView fx:id="waveView" layoutX="215.0" layoutY="90.0" prefHeight="243.0" prefWidth="173.0" />
+            <Label layoutX="32.0" layoutY="49.0" text="Select your search filter" textFill="#0ffaff">
+               <font>
+                  <Font name="Apple Chancery" size="17.0" />
+               </font></Label>
+            <Button fx:id="goToWave" layoutX="231.0" layoutY="52.0" mnemonicParsing="false" onMouseClicked="#goToSelectedWave" prefHeight="26.0" prefWidth="141.0" text="Go To Selected Wave" />
+            <Button fx:id="backButton" layoutX="10.0" layoutY="1.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+            <ImageView fitHeight="410.0" fitWidth="200.0" layoutX="419.0" layoutY="-2.0">
+               <image>
+                  <Image url="@../../../../Untitled%202.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

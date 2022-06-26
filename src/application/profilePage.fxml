@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #345670#345670;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ProfilePage">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="406.0" fitWidth="617.0" layoutX="-1.0" layoutY="-2.0">
+               <image>
+                  <Image url="@../../../../Downloads/NightSurfing.jpeg" />
+               </image>
+            </ImageView>
+            <Label fx:id="nameLabel" layoutX="29.0" layoutY="92.0" prefHeight="55.0" prefWidth="142.0" text="Name" textFill="#43e8e5">
+               <font>
+                  <Font name="Apple Chancery" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="skillLabel" layoutX="30.0" layoutY="204.0" prefHeight="56.0" prefWidth="154.0" text="Skill Level" textFill="#43e8e5">
+               <font>
+                  <Font name="Apple Chancery" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="editProfile" layoutX="268.0" layoutY="7.0" mnemonicParsing="false" onAction="#editUserProfile" prefHeight="26.0" prefWidth="129.0" style="-fx-background-color: #43e8e5#43e8e5;" text="Edit Profile" />
+            <Label fx:id="skillLabel1" layoutX="30.0" layoutY="258.0" text="Birth Date" textFill="#43e8e5">
+               <font>
+                  <Font name="Apple Chancery" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="dobText" layoutX="380.0" layoutY="252.0" prefHeight="68.0" prefWidth="173.0" text="text" textFill="#47fcff">
+               <font>
+                  <Font name="Apple Chancery" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="backButton" layoutX="38.0" layoutY="7.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+            <Button fx:id="viewTravelHistory" layoutX="268.0" layoutY="42.0" mnemonicParsing="false" onAction="#viewTravelHistory" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: #43e8e5#43e8e5;" text="View Travel History" />
+            <Label fx:id="loggedLabel2" layoutX="346.0" layoutY="311.0" prefHeight="68.0" prefWidth="297.0" text="text" textFill="#ffa17e">
+               <font>
+                  <Font name="Apple Chancery" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="skillLabel2" layoutX="345.0" layoutY="198.0" prefHeight="68.0" prefWidth="299.0" text="text" textFill="#47fcff">
+               <font>
+                  <Font name="Apple Chancery" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="usernameLabel2" layoutX="345.0" layoutY="140.0" prefHeight="68.0" prefWidth="285.0" text="text" textFill="#47fcff">
+               <font>
+                  <Font name="Apple Chancery" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="nameLabel2" layoutX="345.0" layoutY="86.0" prefHeight="68.0" prefWidth="256.0" text="text" textFill="#47fcff">
+               <font>
+                  <Font name="Apple Chancery" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="loggedLabel" layoutX="29.0" layoutY="317.0" text="Trips Logged" textFill="#ffa17e">
+               <font>
+                  <Font name="Apple Chancery" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="usernameLabel" layoutX="29.0" layoutY="146.0" text="Username" textFill="#43e8e5">
+               <font>
+                  <Font name="Apple Chancery" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
