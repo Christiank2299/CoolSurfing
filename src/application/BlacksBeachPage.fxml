@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BlacksBeachPage">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="travel" layoutX="260.0" layoutY="294.0" mnemonicParsing="false" onAction="#travelToBlacksBeach" prefHeight="26.0" prefWidth="65.0" text="Travel" />
+            <Label layoutX="349.0" layoutY="296.0" prefHeight="22.0" prefWidth="237.0" text="Travel Restrictions: 10 day quarentine " textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="290.0" fitWidth="600.0" layoutX="-1.0" layoutY="-2.0">
+               <image>
+                  <Image url="@../../../../Downloads/BlacksBeachPhoto.jpeg" />
+               </image>
+            </ImageView>
+            <Button fx:id="backButton" layoutX="6.0" layoutY="2.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+            <Label layoutX="8.0" layoutY="320.0" prefHeight="22.0" prefWidth="270.0" text="Location: Blacks Beach, California, USA" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="296.0" prefHeight="22.0" prefWidth="246.0" text="Recommended Skill Level: Intermediate" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="9.0" layoutY="342.0" prefHeight="22.0" prefWidth="281.0" text="Best Time to Travel: December - March" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="364.0" prefHeight="22.0" prefWidth="280.0" text="Best Time to Surf: December - March" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="351.0" layoutY="320.0" prefHeight="22.0" prefWidth="243.0" text="Death Rate(Ages 0-20): less than 1%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="351.0" layoutY="342.0" prefHeight="22.0" prefWidth="237.0" text="Death Rate(Ages 20-40): 1%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="351.0" layoutY="361.0" prefHeight="22.0" prefWidth="242.0" text="Death Rate(Ages 40-70): 2%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="351.0" layoutY="380.0" prefHeight="22.0" prefWidth="236.0" text="Death Rate  (Ages 70- 80): 9.5%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

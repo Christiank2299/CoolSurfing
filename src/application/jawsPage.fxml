@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.JawsPage">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="283.0" fitWidth="600.0" layoutY="-4.0">
+               <image>
+                  <Image url="@../../../../Downloads/jawsPhoto.jpeg" />
+               </image>
+            </ImageView>
+            <Button fx:id="travel" layoutX="216.0" layoutY="289.0" mnemonicParsing="false" onAction="#travelToJaws" prefHeight="26.0" prefWidth="109.0" text="Travel " />
+            <Button fx:id="back" mnemonicParsing="false" onAction="#goBack" text="Back" />
+            <Label layoutX="14.0" layoutY="291.0" prefHeight="22.0" prefWidth="251.0" text="Recommended Skill Level: Pro" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="313.0" prefHeight="22.0" prefWidth="251.0" text="Location: Maui, Hawaii, USA" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="336.0" prefHeight="22.0" prefWidth="290.0" text="Best Time to Travel: December - March" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="342.0" layoutY="291.0" prefHeight="22.0" prefWidth="244.0" text="Travel Restrictions: 10 day quarentine " textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="358.0" prefHeight="22.0" prefWidth="290.0" text="Best Time to Travel: May - September" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="343.0" layoutY="311.0" prefHeight="22.0" prefWidth="243.0" text="Death Rate(Ages 0-20): less than 1%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="343.0" layoutY="329.0" prefHeight="22.0" prefWidth="243.0" text="Death Rate(Ages 20-40): less than 1%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="343.0" layoutY="346.0" prefHeight="22.0" prefWidth="241.0" text="Death Rate(Ages 40-70): 4%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="344.0" layoutY="361.0" prefHeight="22.0" prefWidth="240.0" text="Death Rate(Ages 70-80): 14%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+          <!--   <Button fx:id="travel1" layoutX="419.0" layoutY="289.0" mnemonicParsing="false" onAction="#travelToJaws" prefHeight="26.0" prefWidth="114.0" text="View Description" />
+            <Button fx:id="travel11" layoutX="83.0" layoutY="289.0" mnemonicParsing="false" onAction="#travelToJaws" prefHeight="26.0" prefWidth="114.0" text="Covid-19 info" /> -->
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

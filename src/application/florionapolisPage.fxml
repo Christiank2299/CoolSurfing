@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FlorionapolisPage">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="travel" layoutX="263.0" layoutY="287.0" mnemonicParsing="false" onAction="#travelToFlorionapolis" prefHeight="26.0" prefWidth="91.0" text="Travel " />
+            <Label layoutX="10.0" layoutY="284.0" prefHeight="22.0" prefWidth="251.0" text="Recommended Skill Level: Expert" textFill="#00efff" />
+            <Label layoutX="10.0" layoutY="302.0" prefHeight="22.0" prefWidth="250.0" text="Location: Florianapolis,  Brazil" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="320.0" prefHeight="22.0" prefWidth="288.0" text="Best Time to Travel: December - March" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="281.0" fitWidth="608.0" layoutX="-2.0" layoutY="-4.0">
+               <image>
+                  <Image url="@../../../../Downloads/FlorionapolisPhoto.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="382.0" layoutY="282.0" prefHeight="22.0" prefWidth="222.0" text="Travel Restrictions: Vaccination" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="backButton" layoutX="10.0" layoutY="1.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+            <Label layoutX="12.0" layoutY="338.0" prefHeight="22.0" prefWidth="284.0" text="Best Time to Surf: December - March" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="385.0" layoutY="302.0" prefHeight="22.0" prefWidth="220.0" text="Death Rate(Ages 0-20): less than 1%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="386.0" layoutY="322.0" prefHeight="22.0" prefWidth="202.0" text="Death Rate(Ages 20-40): 1%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="386.0" layoutY="339.0" prefHeight="22.0" prefWidth="218.0" text="Death Rate(Ages 40-70): 2%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="386.0" layoutY="357.0" prefHeight="22.0" prefWidth="202.0" text="Death Rate  (Ages 70- 80): 12%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

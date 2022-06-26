@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BossTools">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="viewProfile1" layoutX="3.0" layoutY="90.0" mnemonicParsing="false" onAction="#viewProfile1" prefHeight="26.0" prefWidth="87.0" style="-fx-background-color: #4cdafa#4cdafa;" text="View Profile" />
+            <Button fx:id="logOut1" layoutX="514.0" layoutY="91.0" mnemonicParsing="false" onAction="#logOut1" prefHeight="26.0" prefWidth="85.0" style="-fx-background-color: #4cdafa#4cdafa;" text="Log Out" />
+            <Button fx:id="northAmerica1" layoutX="150.0" layoutY="90.0" mnemonicParsing="false" onAction="#goToNA" text="North America" />
+            <Button fx:id="southAmerica1" layoutX="250.0" layoutY="90.0" mnemonicParsing="false" onAction="#goToSA" text="South America" />
+            <Button fx:id="africa1" layoutX="352.0" layoutY="90.0" mnemonicParsing="false" onAction="#goToAfrica1" prefHeight="26.0" prefWidth="94.0" text="Africa" />
+            <Button fx:id="asia1" layoutX="117.0" layoutY="119.0" mnemonicParsing="false" onAction="#goToAsia1" prefHeight="26.0" prefWidth="87.0" text="Asia" />
+            <Button fx:id="europe1" layoutX="206.0" layoutY="119.0" mnemonicParsing="false" onAction="#goToEurope1" prefHeight="26.0" prefWidth="94.0" text="Europe" />
+            <Button fx:id="antarctica1" layoutX="302.0" layoutY="119.0" mnemonicParsing="false" onAction="#goToAntarctica1" prefHeight="26.0" prefWidth="91.0" text="Antarctica" />
+            <Button fx:id="australia1" layoutX="396.0" layoutY="119.0" mnemonicParsing="false" onAction="#goToAustralia1" prefHeight="26.0" prefWidth="89.0" text="Australia" />
+            <Button fx:id="search1" layoutX="208.0" layoutY="147.0" mnemonicParsing="false" onAction="#searchWaves1" style="-fx-background-color: #4cdafa#4cdafa;" text="Search For Your Perfect Wave!" />
+            <ImageView fitHeight="400.0" fitWidth="604.0" layoutX="3.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/HomeScreen.jpeg" />
+               </image>
+            </ImageView>
+            <Button fx:id="adminTools" layoutX="4.0" layoutY="119.0" mnemonicParsing="false" onAction="#goToAdminTools" style="-fx-background-color: #4cdafa#4cdafa;" text="Admin Tools" />
+            <Button layoutX="514.0" layoutY="121.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="85.0" style="-fx-background-color: #4cdafa#4cdafa;" text="Random" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

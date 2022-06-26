@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AntarcticaWavePage">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="299.0" fitWidth="614.0" layoutY="-2.0">
+               <image>
+                  <Image url="@../../../../Downloads/AntarcticaSurfingPhoto.jpeg" />
+               </image>
+            </ImageView>
+            <Button fx:id="backButton" layoutX="13.0" layoutY="1.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+            <Button fx:id="travel" layoutX="270.0" layoutY="305.0" mnemonicParsing="false" onAction="#travelToAntarcticaWave" prefHeight="26.0" prefWidth="60.0" text="Travel" />
+            <Label layoutX="14.0" layoutY="327.0" prefHeight="22.0" prefWidth="258.0" text="Location: South Shetland Islands, Antarctica" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="349.0" prefHeight="22.0" prefWidth="288.0" text="Best Time to Travel: August" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="341.0" layoutY="307.0" prefHeight="22.0" prefWidth="271.0" text="Travel Restrictions: 10 day quarentine " textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="307.0" prefHeight="22.0" prefWidth="246.0" text="Recommended Skill Level: Intermediate" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="371.0" prefHeight="22.0" prefWidth="288.0" text="Best Time to Surf: August" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="341.0" layoutY="327.0" prefHeight="22.0" prefWidth="245.0" text="Death Rate(Ages 0-20): less than 1%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="342.0" layoutY="344.0" prefHeight="22.0" prefWidth="243.0" text="Death Rate(Ages 20-40): less than 1%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="342.0" layoutY="363.0" prefHeight="22.0" prefWidth="242.0" text="Death Rate(Ages 0-20): less than 1%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="342.0" layoutY="379.0" prefHeight="22.0" prefWidth="243.0" text="Death Rate(Ages 70-80): less than 1%" textFill="#00efff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

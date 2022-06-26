@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #171717;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AfterLogin">
+   <center>
+      <AnchorPane prefHeight="468.0" prefWidth="451.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="logout" layoutX="513.0" layoutY="101.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="26.0" prefWidth="83.0" style="-fx-background-color: #20e9ff#20e9ff;" text="Log out" />
+            <ImageView fitHeight="400.0" fitWidth="608.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/HomeScreen.jpeg" />
+               </image>
+            </ImageView>
+            <Button fx:id="viewProfile" layoutX="8.0" layoutY="101.0" mnemonicParsing="false" onAction="#viewProfile" prefHeight="26.0" prefWidth="82.0" style="-fx-background-color: #20e9ff#20e9ff;" text="View profile" />
+            <Button fx:id="northAmerica" layoutX="159.0" layoutY="102.0" mnemonicParsing="false" onAction="#northAmericaPage" text="North America" />
+            <Button fx:id="southAmerica" layoutX="257.0" layoutY="102.0" mnemonicParsing="false" onAction="#southAmericaPage" text="South America" />
+            <Button fx:id="africa" layoutX="357.0" layoutY="102.0" mnemonicParsing="false" onAction="#africaPage" prefHeight="26.0" prefWidth="89.0" text="Africa" />
+            <Button fx:id="asia" layoutX="123.0" layoutY="132.0" mnemonicParsing="false" onAction="#asiaPage" prefHeight="26.0" prefWidth="89.0" text="Asia" />
+            <Button fx:id="europe" layoutX="216.0" layoutY="132.0" mnemonicParsing="false" onAction="#europePage" prefHeight="26.0" prefWidth="88.0" text="Europe" />
+            <Button fx:id="antarctica" layoutX="308.0" layoutY="132.0" mnemonicParsing="false" onAction="#antarcticaPage" prefHeight="26.0" prefWidth="85.0" text="Antarctica" />
+            <Button fx:id="australia" layoutX="397.0" layoutY="132.0" mnemonicParsing="false" onAction="#australiaPage" prefHeight="26.0" prefWidth="96.0" text="Australia" />
+            <Button fx:id="search" layoutX="213.0" layoutY="164.0" mnemonicParsing="false" onAction="#goToSearchPage" prefHeight="26.0" prefWidth="185.0" style="-fx-background-color: #20e9ff#20e9ff #20e9ff#20e9ff;" text="Search For Your Perfect Wave!" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

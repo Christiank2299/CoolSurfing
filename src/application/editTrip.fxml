@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EditTrip">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000;" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="newEntry" layoutX="334.0" layoutY="59.0" prefHeight="200.0" prefWidth="200.0" promptText="Begin new journal entry." />
+            <Button fx:id="saveEntry" layoutX="361.0" layoutY="21.0" mnemonicParsing="false" onAction="#saveJournalEntry" text="Save New Journal Entry" />
+            <ImageView fitHeight="410.0" fitWidth="276.0" layoutY="-2.0">
+               <image>
+                  <Image url="@../../../../Untitled%203.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="backButton" layoutY="2.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+            <Label fx:id="spellLabel" layoutX="384.0" layoutY="265.0" textFill="RED" />
+            <TextArea fx:id="spellCheck" layoutX="334.0" layoutY="293.0" prefHeight="89.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
